@@ -14,7 +14,7 @@ public class CodingExercise1 {
 answer = JOptionPane.showInputDialog("What color would you like the robot to draw?");
    	 // 4. use an if/else statement to set the pen color that the user requested (minimum of 2 colors)
 if(answer.equalsIgnoreCase("red")) {
-	rob.setPenColor(192, 57,43);
+	rob.setPenColor(192, 57, 43);
 }
 else if(answer.equalsIgnoreCase("blue")) {
 	rob.setPenColor(52, 152, 219);

@@ -14,7 +14,8 @@ public static void main(String [] args) {
 	String answer;
 	answer = JOptionPane.showInputDialog("How old are you?");
 	int age = Integer.parseInt(answer);
-	if(age >= 30) {
+	JOptionPane.showMessageDialog(null, "You were born in " + (2018 - age));
+	if(age > 30) {
 		JOptionPane.showMessageDialog(null, "You are too old to play this game!");
 	}
 }
